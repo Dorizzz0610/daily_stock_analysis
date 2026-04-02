@@ -1,0 +1,6 @@
+model_list:
+  - model_name: anthropic/claude-3-7-sonnet
+    litellm_params:
+      model: anthropic/claude-3-7-sonnet
+      api_base: os.environ/ANTHROPIC_BASE_URL
+      api_key: os.environ/ANTHROPIC_API_KEY
